@@ -202,7 +202,7 @@ pip install pandas matplotlib numpy openpyxl
 ```
 bukatoko-analytics/
 ├── bukatoko_analysis.py
-└── Copy_of_Dataset_Case_Study.xlsx   ← put it here
+└── Copy_of_Dataset_Case_Study.xlsx
 ```
 
 **4. Run the analysis**
@@ -234,8 +234,7 @@ bukatoko-analytics/
 ├── bukatoko_analysis.py        # Main analysis script
 ├── bukatoko_charts.png         # Output chart (generated on run)
 ├── README.md                   # This file
-└── Copy_of_Dataset_Case_Study.xlsx  # Dataset (not included in repo)
-```
+└── Copy_of_Dataset_Case_Study.xlsx  # Dataset
 
 ---
 
