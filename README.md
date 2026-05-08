@@ -189,7 +189,7 @@ gs  = gridspec.GridSpec(3, 2, figure=fig, hspace=0.52, wspace=0.38)
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/yourusername/bukatoko-analytics.git
+git clone https://github.com/irwandaadityan/bukatoko-analytics.git
 cd bukatoko-analytics
 ```
 
