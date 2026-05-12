@@ -1,18 +1,4 @@
-# 🛒 BukaToko E-Commerce Analytics Case Study
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7+-11557C?style=for-the-badge&logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Complete-E8472A?style=for-the-badge)
-
-**Exploratory data analysis of a Southeast Asia e-commerce platform — uncovering user behaviour, funnel drop-offs, and channel performance across 10,000 events.**
-
-</div>
-
----
-
+# BukaToko E-Commerce Analytics Case Study
 ## Context
 
 **BukaToko** is a fictional online e-commerce platform operating across Southeast Asia, the US, and Australia. Users browse products, search, add to cart, and purchase via web and mobile app. The marketing team attracts users through organic search, paid ads, email, social media, referrals, and direct visits.
@@ -216,7 +202,7 @@ python bukatoko_analysis.py
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |------|---------|
