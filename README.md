@@ -13,7 +13,7 @@
 
 ---
 
-## 📌 Context
+## Context
 
 **BukaToko** is a fictional online e-commerce platform operating across Southeast Asia, the US, and Australia. Users browse products, search, add to cart, and purchase via web and mobile app. The marketing team attracts users through organic search, paid ads, email, social media, referrals, and direct visits.
 
@@ -21,7 +21,7 @@ As the analytics team, the goal was to **explore user behaviour and improve funn
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 | Column | Description |
 |---|---|
@@ -41,7 +41,7 @@ As the analytics team, the goal was to **explore user behaviour and improve funn
 
 ---
 
-## ❓ Questions Answered
+## Questions Answered
 
 ### Q1 · Which country has the most active users in Q2 2025?
 
@@ -65,16 +65,16 @@ country_users = (
 
 | Rank | Country | Active Users |
 |------|---------|-------------|
-| 🥇 1 | **ID** (Indonesia) | **1,055** |
-| 🥈 2 | US | 815 |
-| 🥉 3 | VN | 485 |
+| 1 | **ID** (Indonesia) | **1,055** |
+| 2 | US | 815 |
+| 3 | VN | 485 |
 | 4 | PH | 464 |
 | 5 | MY | 460 |
 | 6 | SG | 459 |
 | 7 | TH | 236 |
 | 8 | AU | 215 |
 
-> 💡 Indonesia leads by **29% over the US**, making it the core market for growth investment.
+> Indonesia leads by **29% over the US**, making it the core market for growth investment.
 
 ---
 
@@ -101,7 +101,7 @@ pivot_mau = mau_channel.pivot(index="month_str", columns="channel", values="mau"
 | 2025-08 | 250 | 248 | 249 | 251 | 292 | 240 |
 | 2025-09 | 186 | 209 | 208 | 206 | 197 | 174 |
 
-> 💡 All channels follow the same trajectory — ramp-up in April, plateau through August, then a September drop. No single channel dominates — diversification is working, but the Sep drop warrants investigation.
+> All channels follow the same trajectory — ramp-up in April, plateau through August, then a September drop. No single channel dominates — diversification is working, but the Sep drop warrants investigation.
 
 ---
 
@@ -123,11 +123,11 @@ device_sessions = (
 
 | Device | Sessions | Share |
 |--------|----------|-------|
-| 📱 **Android** | **4,961** | **49.6%** |
-| 🍎 iOS | 4,000 | 40.0% |
-| 🖥 Desktop | 1,039 | 10.4% |
+| **Android** | **4,961** | **49.6%** |
+| iOS | 4,000 | 40.0% |
+| Desktop | 1,039 | 10.4% |
 
-> 💡 BukaToko is a **mobile-first platform** — 89.6% of all sessions come from mobile devices. Desktop optimization should be deprioritized; Android performance and UX is critical.
+> BukaToko is a **mobile-first platform** — 89.6% of all sessions come from mobile devices. Desktop optimization should be deprioritized; Android performance and UX is critical.
 
 ---
 
@@ -163,11 +163,11 @@ Unique users who ATC after search :   1
 Conversion rate                   : 0.13%
 ```
 
-> ⚠️ **Critical finding:** Only **0.13%** of users who searched went on to add a product to cart on the same day. This signals a broken discovery-to-intent funnel — search results may not be relevant enough to drive cart adds. **Recommended actions:** improve search ranking algorithm, add "similar products" nudges post-search, and A/B test cart prompts.
+> **Critical finding:** Only **0.13%** of users who searched went on to add a product to cart on the same day. This signals a broken discovery-to-intent funnel — search results may not be relevant enough to drive cart adds. **Recommended actions:** improve search ranking algorithm, add "similar products" nudges post-search, and A/B test cart prompts.
 
 ---
 
-## 📊 Visualisations
+## Visualisations
 
 The script generates a 4-panel chart (`bukatoko_charts.png`) covering all four questions:
 
@@ -185,7 +185,7 @@ gs  = gridspec.GridSpec(3, 2, figure=fig, hspace=0.52, wspace=0.38)
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 **1. Clone the repo**
 ```bash
@@ -227,7 +227,7 @@ python bukatoko_analysis.py
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 bukatoko-analytics/
@@ -238,19 +238,11 @@ bukatoko-analytics/
 
 ---
 
-## 🔑 Key Insights Summary
+## Key Insights Summary
 
 | # | Insight | Implication |
 |---|---------|-------------|
 | 1 | 🇮🇩 Indonesia is the #1 market (1,055 MAU in Q2) | Double down on ID — localisation, campaigns, logistics |
-| 2 | 📈 All channels perform similarly, peaking Apr–Aug | Channel diversification is healthy; investigate Sep drop |
-| 3 | 📱 Android = 49.6% of all sessions | Prioritise Android app performance and UX |
-| 4 | ⚠️ Only 0.13% search→ATC conversion | Fix search relevance and add post-search cart nudges |
-
----
-
-<div align="center">
-
-Made with 🐍 Python · Part of the BukaToko Analytics Case Study
-
-</div>
+| 2 |  All channels perform similarly, peaking Apr–Aug | Channel diversification is healthy; investigate Sep drop |
+| 3 |  Android = 49.6% of all sessions | Prioritise Android app performance and UX |
+| 4 |  Only 0.13% search→ATC conversion | Fix search relevance and add post-search cart nudges |
